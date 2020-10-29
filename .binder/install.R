@@ -1,10 +1,5 @@
-install.packages(
-  "countdown",
-  "devtools",
-  "dplyr",
-  "fontawesome",
+install.packages(c(
   "ggridges",
-  "holepunch",
   "kableExtra",
   "knitr",
   "lavaan",
@@ -12,5 +7,5 @@ install.packages(
   "plotly",
   "rio",
   "rmarkdown",
-  "tidyverse"
+  "tidyverse")
 )
